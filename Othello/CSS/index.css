@@ -1,0 +1,51 @@
+body {
+	background-image: url(../Images/blurgame.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 40%;
+	width: 100%;
+    margin: 0px;
+    //padding: 15% 0 15% 0;
+    background-color: #555;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+}
+body > form > div#container {
+	display: table;
+	background: firebrick;	
+	//height: auto;
+	width: 400px;
+	box-shadow: 10px 10px 20px black;
+	border-radius: 10px;
+}
+body > * > * {
+	font-size: 40px;
+	line-height: 100px;
+	height: 100px;
+	width: auto;
+	padding: 25px;
+	margin: auto;
+}
+span {
+	padding: 30px;
+}
+input, select, button {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	background: #333;
+	height: 50px;
+	width: 200px;
+}
+input[type=checkbox] {
+  -ms-transform: scale(5); /* IE */
+  -moz-transform: scale(5); /* FF */
+  -webkit-transform: scale(5); /* Safari and Chrome */
+  -o-transform: scale(5); /* Opera */
+  height: 13px;
+  margin: 0px;
+}
+
+
